@@ -6,7 +6,7 @@ import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { DollarSign, Award, BookOpen, Sun, Star, Crown } from "lucide-react";
+import { DollarSign, Award, BookOpen, Sun, Star, Crown, Instagram, Facebook, Twitter, Youtube } from "lucide-react";
 
 export default function ServicesPage() {
   return (
@@ -186,10 +186,10 @@ export default function ServicesPage() {
             }
           ]}
           socialLinks={[
-            {"icon":"Instagram","href":"https://instagram.com/okun_restaurant","ariaLabel":"Instagram"},
-            {"icon":"Facebook","href":"https://facebook.com/okun.restaurant","ariaLabel":"Facebook"},
-            {"icon":"Twitter","href":"https://twitter.com/okun_rest","ariaLabel":"Twitter"},
-            {"icon":"Youtube","href":"https://youtube.com/okun_restaurant","ariaLabel":"YouTube"}
+            {"icon":Instagram,"href":"https://instagram.com/okun_restaurant","ariaLabel":"Instagram"},
+            {"icon":Facebook,"href":"https://facebook.com/okun.restaurant","ariaLabel":"Facebook"},
+            {"icon":Twitter,"href":"https://twitter.com/okun_rest","ariaLabel":"Twitter"},
+            {"icon":Youtube,"href":"https://youtube.com/okun_restaurant","ariaLabel":"YouTube"}
           ]}
         />
       </div>

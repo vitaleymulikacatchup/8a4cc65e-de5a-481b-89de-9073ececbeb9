@@ -5,7 +5,7 @@ import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatin
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { TrendingUp, Users, Instagram, Linkedin, Globe, Mail, Phone } from "lucide-react";
+import { TrendingUp, Users, Instagram, Linkedin, Globe, Mail, Phone, Facebook, Twitter, Youtube } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -152,10 +152,10 @@ export default function AboutPage() {
             }
           ]}
           socialLinks={[
-            {"icon":"Instagram","href":"https://instagram.com/okun_restaurant","ariaLabel":"Instagram"},
-            {"icon":"Facebook","href":"https://facebook.com/okun.restaurant","ariaLabel":"Facebook"},
-            {"icon":"Twitter","href":"https://twitter.com/okun_rest","ariaLabel":"Twitter"},
-            {"icon":"Youtube","href":"https://youtube.com/okun_restaurant","ariaLabel":"YouTube"}
+            {"icon":Instagram,"href":"https://instagram.com/okun_restaurant","ariaLabel":"Instagram"},
+            {"icon":Facebook,"href":"https://facebook.com/okun.restaurant","ariaLabel":"Facebook"},
+            {"icon":Twitter,"href":"https://twitter.com/okun_rest","ariaLabel":"Twitter"},
+            {"icon":Youtube,"href":"https://youtube.com/okun_restaurant","ariaLabel":"YouTube"}
           ]}
         />
       </div>

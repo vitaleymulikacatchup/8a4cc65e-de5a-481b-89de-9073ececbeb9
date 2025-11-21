@@ -7,8 +7,7 @@ import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import Link from "next/link";
-import { Fish, Star, ChefHat } from "lucide-react";
+import { Fish, Star, ChefHat, Instagram, Facebook, Twitter, Youtube } from "lucide-react";
 
 export default function HomePage() {
   return (
@@ -175,10 +174,10 @@ export default function HomePage() {
             }
           ]}
           socialLinks={[
-            {"icon":"Instagram","href":"https://instagram.com/okun_restaurant","ariaLabel":"Instagram"},
-            {"icon":"Facebook","href":"https://facebook.com/okun.restaurant","ariaLabel":"Facebook"},
-            {"icon":"Twitter","href":"https://twitter.com/okun_rest","ariaLabel":"Twitter"},
-            {"icon":"Youtube","href":"https://youtube.com/okun_restaurant","ariaLabel":"YouTube"}
+            {"icon":Instagram,"href":"https://instagram.com/okun_restaurant","ariaLabel":"Instagram"},
+            {"icon":Facebook,"href":"https://facebook.com/okun.restaurant","ariaLabel":"Facebook"},
+            {"icon":Twitter,"href":"https://twitter.com/okun_rest","ariaLabel":"Twitter"},
+            {"icon":Youtube,"href":"https://youtube.com/okun_restaurant","ariaLabel":"YouTube"}
           ]}
         />
       </div>

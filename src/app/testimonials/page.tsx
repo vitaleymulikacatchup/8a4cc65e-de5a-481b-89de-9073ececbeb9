@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { MessageCircle } from "lucide-react";
+import { MessageCircle, Instagram, Facebook, Twitter, Youtube } from "lucide-react";
 
 export default function TestimonialsPage() {
   return (
@@ -126,10 +126,10 @@ export default function TestimonialsPage() {
             }
           ]}
           socialLinks={[
-            {"icon":"Instagram","href":"https://instagram.com/okun_restaurant","ariaLabel":"Instagram"},
-            {"icon":"Facebook","href":"https://facebook.com/okun.restaurant","ariaLabel":"Facebook"},
-            {"icon":"Twitter","href":"https://twitter.com/okun_rest","ariaLabel":"Twitter"},
-            {"icon":"Youtube","href":"https://youtube.com/okun_restaurant","ariaLabel":"YouTube"}
+            {"icon":Instagram,"href":"https://instagram.com/okun_restaurant","ariaLabel":"Instagram"},
+            {"icon":Facebook,"href":"https://facebook.com/okun.restaurant","ariaLabel":"Facebook"},
+            {"icon":Twitter,"href":"https://twitter.com/okun_rest","ariaLabel":"Twitter"},
+            {"icon":Youtube,"href":"https://youtube.com/okun_restaurant","ariaLabel":"YouTube"}
           ]}
         />
       </div>
