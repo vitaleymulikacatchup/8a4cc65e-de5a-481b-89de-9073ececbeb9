@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -6,6 +6,7 @@ import HeroSplit from '@/components/sections/hero/HeroSplit';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
+import FooterSocial from '@/components/sections/footer/FooterSocial';
 import Link from "next/link";
 import { Fish, Star, ChefHat } from "lucide-react";
 
@@ -28,7 +29,7 @@ export default function HomePage() {
           navItems={[
             {"name":"Главная","id":"/"},
             {"name":"О нас","id":"/about"},
-            {"name":"Меню","id":"/menu"},
+            {"name":"Услуги","id":"/services"},
             {"name":"Отзывы","id":"/testimonials"},
             {"name":"Контакты","id":"/contact"}
           ]}
@@ -48,7 +49,7 @@ export default function HomePage() {
           imagePosition="right"
           buttons={[
             {"text":"Забронировать стол","href":"/contact"},
-            {"text":"Наше меню","href":"/menu"}
+            {"text":"Наше меню","href":"/services"}
           ]}
         />
       </div>
@@ -75,28 +76,28 @@ export default function HomePage() {
           textboxLayout="default"
           features={[
             {
-              "id":"1",
+              "id":1,
               "title":"Свежесть каждый день",
               "description":"Ежедневные поставки морепродуктов прямо с рыболовецких судов гарантируют непревзойденную свежесть каждого блюда.",
               "imageSrc":"https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763732649781-ee1vfgb5.jpg",
               "imageAlt":"Свежие морепродукты"
             },
             {
-              "id":"2",
+              "id":2,
               "title":"Изысканная подача",
               "description":"Наши шеф-повара создают не просто блюда, а настоящие произведения кулинарного искусства с безупречной подачей.",
               "imageSrc":"https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763732650840-czw5we61.jpg",
               "imageAlt":"Изысканная подача блюд"
             },
             {
-              "id":"3",
+              "id":3,
               "title":"Винное сопровождение",
               "description":"Тщательно подобранная коллекция вин идеально дополняет каждое блюдо из морепродуктов в нашем меню.",
               "imageSrc":"https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763732651871-idjcj5ts.jpg",
               "imageAlt":"Винное сопровождение"
             },
             {
-              "id":"4",
+              "id":4,
               "title":"Панорамный вид",
               "description":"Насладитесь трапезой с видом на море в нашем ресторане с панорамными окнами и террасой.",
               "imageSrc":"https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763732652942-6z7edq4y.jpg",
@@ -149,28 +150,28 @@ export default function HomePage() {
             {
               "title":"Меню",
               "items":[
-                {"label":"Рыба и морепродукты","href":"/menu"},
-                {"label":"Фирменные блюда","href":"/products"},
-                {"label":"Винная карта","href":"/wine"},
-                {"label":"Десерты","href":"/desserts"}
+                {"label":"Рыба и морепродукты","href":"/services"},
+                {"label":"Фирменные блюда","href":"/services"},
+                {"label":"Винная карта","href":"/services"},
+                {"label":"Десерты","href":"/services"}
               ]
             },
             {
               "title":"О ресторане",
               "items":[
                 {"label":"Наша история","href":"/about"},
-                {"label":"Команда","href":"/team"},
-                {"label":"Новости","href":"/blog"},
-                {"label":"Карьера","href":"/careers"}
+                {"label":"Команда","href":"/about"},
+                {"label":"Новости","href":"/about"},
+                {"label":"Карьера","href":"/about"}
               ]
             },
             {
               "title":"Услуги",
               "items":[
                 {"label":"Бронирование","href":"/contact"},
-                {"label":"Банкеты","href":"/banquets"},
-                {"label":"Доставка","href":"/delivery"},
-                {"label":"Кейтеринг","href":"/catering"}
+                {"label":"Банкеты","href":"/services"},
+                {"label":"Доставка","href":"/services"},
+                {"label":"Кейтеринг","href":"/services"}
               ]
             }
           ]}

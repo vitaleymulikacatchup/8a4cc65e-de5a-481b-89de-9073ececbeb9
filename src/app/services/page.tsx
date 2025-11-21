@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -28,7 +28,7 @@ export default function ServicesPage() {
           navItems={[
             {"name":"Главная","id":"/"},
             {"name":"О нас","id":"/about"},
-            {"name":"Меню","id":"/menu"},
+            {"name":"Услуги","id":"/services"},
             {"name":"Отзывы","id":"/testimonials"},
             {"name":"Контакты","id":"/contact"}
           ]}
@@ -162,28 +162,28 @@ export default function ServicesPage() {
             {
               "title":"Меню",
               "items":[
-                {"label":"Рыба и морепродукты","href":"/menu"},
-                {"label":"Фирменные блюда","href":"/products"},
-                {"label":"Винная карта","href":"/wine"},
-                {"label":"Десерты","href":"/desserts"}
+                {"label":"Рыба и морепродукты","href":"/services"},
+                {"label":"Фирменные блюда","href":"/services"},
+                {"label":"Винная карта","href":"/services"},
+                {"label":"Десерты","href":"/services"}
               ]
             },
             {
               "title":"О ресторане",
               "items":[
                 {"label":"Наша история","href":"/about"},
-                {"label":"Команда","href":"/team"},
-                {"label":"Новости","href":"/blog"},
-                {"label":"Карьера","href":"/careers"}
+                {"label":"Команда","href":"/about"},
+                {"label":"Новости","href":"/about"},
+                {"label":"Карьера","href":"/about"}
               ]
             },
             {
               "title":"Услуги",
               "items":[
                 {"label":"Бронирование","href":"/contact"},
-                {"label":"Банкеты","href":"/banquets"},
-                {"label":"Доставка","href":"/delivery"},
-                {"label":"Кейтеринг","href":"/catering"}
+                {"label":"Банкеты","href":"/services"},
+                {"label":"Доставка","href":"/services"},
+                {"label":"Кейтеринг","href":"/services"}
               ]
             }
           ]}

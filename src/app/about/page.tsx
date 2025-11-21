@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -6,7 +6,7 @@ import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
 import Link from "next/link";
-import { TrendingUp, Users } from "lucide-react";
+import { TrendingUp, Users, Instagram, Linkedin, Globe, Mail, Phone } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -27,7 +27,7 @@ export default function AboutPage() {
           navItems={[
             {"name":"Главная","id":"/"},
             {"name":"О нас","id":"/about"},
-            {"name":"Меню","id":"/menu"},
+            {"name":"Услуги","id":"/services"},
             {"name":"Отзывы","id":"/testimonials"},
             {"name":"Контакты","id":"/contact"}
           ]}
@@ -88,8 +88,8 @@ export default function AboutPage() {
               "imageSrc":"https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763732664338-koihp8q1.jpg",
               "imageAlt":"Шеф-повар Александр Морской",
               "socialLinks":[
-                {"icon":"Instagram","url":"https://instagram.com/chef_morskoy"},
-                {"icon":"Linkedin","url":"https://linkedin.com/in/chef-morskoy"}
+                {"icon":Instagram,"url":"https://instagram.com/chef_morskoy"},
+                {"icon":Linkedin,"url":"https://linkedin.com/in/chef-morskoy"}
               ]
             },
             {
@@ -100,8 +100,8 @@ export default function AboutPage() {
               "imageSrc":"https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763732665142-lcs8r40b.jpg",
               "imageAlt":"Сомелье Елена Винтаж",
               "socialLinks":[
-                {"icon":"Instagram","url":"https://instagram.com/elena_vintage"},
-                {"icon":"Globe","url":"https://elena-vintage.com"}
+                {"icon":Instagram,"url":"https://instagram.com/elena_vintage"},
+                {"icon":Globe,"url":"https://elena-vintage.com"}
               ]
             },
             {
@@ -112,8 +112,8 @@ export default function AboutPage() {
               "imageSrc":"https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763732665975-5goe462a.jpg",
               "imageAlt":"Управляющий Игорь Гостеприимов",
               "socialLinks":[
-                {"icon":"Mail","url":"mailto:igor@okun-restaurant.ru"},
-                {"icon":"Phone","url":"tel:+7495123456"}
+                {"icon":Mail,"url":"mailto:igor@okun-restaurant.ru"},
+                {"icon":Phone,"url":"tel:+7495123456"}
               ]
             }
           ]}
@@ -128,28 +128,28 @@ export default function AboutPage() {
             {
               "title":"Меню",
               "items":[
-                {"label":"Рыба и морепродукты","href":"/menu"},
-                {"label":"Фирменные блюда","href":"/products"},
-                {"label":"Винная карта","href":"/wine"},
-                {"label":"Десерты","href":"/desserts"}
+                {"label":"Рыба и морепродукты","href":"/services"},
+                {"label":"Фирменные блюда","href":"/services"},
+                {"label":"Винная карта","href":"/services"},
+                {"label":"Десерты","href":"/services"}
               ]
             },
             {
               "title":"О ресторане",
               "items":[
                 {"label":"Наша история","href":"/about"},
-                {"label":"Команда","href":"/team"},
-                {"label":"Новости","href":"/blog"},
-                {"label":"Карьера","href":"/careers"}
+                {"label":"Команда","href":"/about"},
+                {"label":"Новости","href":"/about"},
+                {"label":"Карьера","href":"/about"}
               ]
             },
             {
               "title":"Услуги",
               "items":[
                 {"label":"Бронирование","href":"/contact"},
-                {"label":"Банкеты","href":"/banquets"},
-                {"label":"Доставка","href":"/delivery"},
-                {"label":"Кейтеринг","href":"/catering"}
+                {"label":"Банкеты","href":"/services"},
+                {"label":"Доставка","href":"/services"},
+                {"label":"Кейтеринг","href":"/services"}
               ]
             }
           ]}
