@@ -6,7 +6,6 @@ import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import Link from "next/link";
 import { DollarSign, Award, BookOpen, Sun, Star, Crown } from "lucide-react";
 
 export default function ServicesPage() {
@@ -32,7 +31,6 @@ export default function ServicesPage() {
             {"name":"Отзывы","id":"/testimonials"},
             {"name":"Контакты","id":"/contact"}
           ]}
-          logoText="Окунь"
           button={{"text":"Заказать стол","href":"/contact"}}
         />
       </div>

@@ -5,7 +5,6 @@ import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatin
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import Link from "next/link";
 import { TrendingUp, Users, Instagram, Linkedin, Globe, Mail, Phone } from "lucide-react";
 
 export default function AboutPage() {
@@ -31,7 +30,6 @@ export default function AboutPage() {
             {"name":"Отзывы","id":"/testimonials"},
             {"name":"Контакты","id":"/contact"}
           ]}
-          logoText="Окунь"
           button={{"text":"Заказать стол","href":"/contact"}}
         />
       </div>

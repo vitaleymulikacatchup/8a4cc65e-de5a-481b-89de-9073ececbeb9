@@ -33,7 +33,6 @@ export default function HomePage() {
             {"name":"Отзывы","id":"/testimonials"},
             {"name":"Контакты","id":"/contact"}
           ]}
-          logoText="Окунь"
           button={{"text":"Заказать стол","href":"/contact"}}
         />
       </div>

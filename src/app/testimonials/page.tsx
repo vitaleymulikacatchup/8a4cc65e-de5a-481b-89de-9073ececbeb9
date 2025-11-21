@@ -4,7 +4,6 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import Link from "next/link";
 import { MessageCircle } from "lucide-react";
 
 export default function TestimonialsPage() {
@@ -30,7 +29,6 @@ export default function TestimonialsPage() {
             {"name":"Отзывы","id":"/testimonials"},
             {"name":"Контакты","id":"/contact"}
           ]}
-          logoText="Окунь"
           button={{"text":"Заказать стол","href":"/contact"}}
         />
       </div>

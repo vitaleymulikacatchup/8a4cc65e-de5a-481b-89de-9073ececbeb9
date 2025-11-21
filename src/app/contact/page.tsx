@@ -4,7 +4,6 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import Link from "next/link";
 import { Calendar } from "lucide-react";
 
 export default function ContactPage() {
@@ -30,7 +29,6 @@ export default function ContactPage() {
             {"name":"Отзывы","id":"/testimonials"},
             {"name":"Контакты","id":"/contact"}
           ]}
-          logoText="Окунь"
           button={{"text":"Заказать стол","href":"/contact"}}
         />
       </div>
